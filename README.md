@@ -1,10 +1,17 @@
 # sensible-typescript-starter-node 
+  - [Overview](#overview)
+  - [Writing Tests with Tap](#writing-tests-with-tap)
+    - [Test Example](#test-example)
+  - [Logging with Pino 7+](#logging-with-pino-7)
+    - [Logging options](#logging-options) 
+    - [Log rotation](#log-rotation) 
+  - [Unicode and Windows Terminal](#unicode-and-windows-terminal)
+  - [Code Style](#code-style)
 
-<div align="center">
-
-[![Modified Semistandard](https://img.shields.io/badge/code%20style-typescript%20semistandard-brightgreen.svg?style=flat)](https://github.com/standard/eslint-config-standard-with-typescript)
-
-</div>
+# Overview
+This starter template includes [tap](https://node-tap.org) for tests and [pino](https://getpino.io) for logging.  
+ESLint is configured for Typescript in [Standard.js](https://standardjs.com/) semi style (semicolons) and a few [quality of life modifications](#codestyle).  
+Standard.js is widely used at vercel, heroku, node, elastic, npm, nearform, fastify and more!
 
 
 # Writing Tests with Tap
@@ -84,7 +91,7 @@ have been written. To perform log rotation without `copytruncate`, see [Reopenin
 > https://github.com/pinojs/pino/blob/master/docs/help.md#unicode-and-windows-terminal
 
 
-## Code style
+## Code Style
 This repo uses a modified version of [semistandard](https://github.com/standard/eslint-config-standard-with-typescript) aiming for best practises and a modern ecmascript experience. Three rules in total were modified.
 
 The following modifications are applied in ``.eslintrc.js``:

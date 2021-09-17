@@ -20,8 +20,7 @@ const log = pino({
 
 
 ## Log rotation
-Use a separate tool for log rotation:
-We recommend [logrotate](https://github.com/logrotate/logrotate).
+Use a separate tool for log rotation, e.g. [logrotate](https://github.com/logrotate/logrotate).
 Consider we output our logs to `/var/log/myapp.log` like so:
 
 ```

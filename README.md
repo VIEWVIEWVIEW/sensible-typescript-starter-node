@@ -14,7 +14,8 @@ Put all your tests into ``test/`` and make sure your file name ends in ``*.test.
 
 To run a your tap-tests, simply execute ``npm run test``.
 
-When the output in the terminal gets to messy, you can also let tap create a coverage report, which you can inspect in the browser: ``npm run coverage``. You can inspect a screenshot of a sample output here:
+When the output in the terminal gets to messy, you can also let tap create a coverage report, which you can inspect in the browser: ``npm run coverage``. This will create a new folder called ``coverage`` with an ``index.html``.  
+You can inspect a screenshot of a sample output here:
  - [Coverage Overview](https://raw.githubusercontent.com/VIEWVIEWVIEW/sensible-typescript-starter-node/main/docs/coverage_index.png)
  - [Coverage Animal.ts](https://raw.githubusercontent.com/VIEWVIEWVIEW/sensible-typescript-starter-node/main/docs/coverage_animal.png) 
 

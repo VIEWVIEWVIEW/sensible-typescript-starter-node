@@ -7,6 +7,36 @@
 </div>
 
 
+# Writing Tests with Tap
+
+Tests are written with the [tap testing framework](https://node-tap.org/).  
+Put all your tests into ``test/`` and make sure your file name ends in ``*.test.ts``.
+
+To run a your tap-tests, simply execute ``npm run test``.
+
+When the output in the terminal gets to messy, you can also let tap create a coverage report, which you can inspect in the browser: ``npm run coverage``. You can inspect a screenshot of a sample output here: [coverage Overview](https://raw.githubusercontent.com/VIEWVIEWVIEW/sensible-typescript-starter-node/main/docs/coverage_index.png) [coverage Animal.ts](https://raw.githubusercontent.com/VIEWVIEWVIEW/sensible-typescript-starter-node/main/docs/coverage_animal.png) 
+
+### Test Example:
+```typescript
+import tap from 'tap';
+
+import { Cat, Dog } from '../src/Animal';
+
+tap.test('Cat', async (t) => {
+  const testCat = new Cat();
+  t.equal(testCat.playSound(), 'meow');
+
+  t.equal(testCat.sleep(), '💤');
+});
+
+tap.test('Dog', async (t) => {
+  const testDog = new Dog();
+  t.equal(testDog.playSound(), 'woof');
+  t.equal(testDog.sleep(), '💤');
+});
+```
+
+
 # Logging with Pino 7+
 *I strongly recommend checking out the pino docs on https://getpino.io/, but here is a quick overview of the essentials:*
 

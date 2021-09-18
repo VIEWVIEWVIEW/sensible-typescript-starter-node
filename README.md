@@ -8,6 +8,8 @@
     - [Log rotation](#log-rotation) 
   - [Unicode and Windows Terminal](#unicode-and-windows-terminal)
   - [Code Style](#code-style)
+    - [Linting](#linting)
+    - [Modifications](#modifications) 
 
 # Overview
 This starter template includes [tap](https://node-tap.org) for tests and [pino](https://getpino.io) for logging.  

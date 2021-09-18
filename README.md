@@ -16,8 +16,9 @@ Standard.js is widely used at vercel, heroku, node, elastic, npm, nearform, fast
 
 # Get Started
 1. Generate new repository from this template: https://github.com/VIEWVIEWVIEW/sensible-typescript-starter-node/generate
-2. Clone repo to your local machine
-3. Run ``npm i`` and install the [ESLint Extension](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) for vscode
+2. Clone repo to your local machine: ``git clone https://github.com/username/generated-repo``
+3. Run ``npm i`` and install the [ESLint Extension](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) for vscode.  
+(ESLint Extension is included in the ``.vscode`` workspace recommendations too!)
 
 # Writing Tests with Tap
 

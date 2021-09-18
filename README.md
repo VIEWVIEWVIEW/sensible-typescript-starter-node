@@ -1,5 +1,6 @@
 # sensible-typescript-starter-node 
   - [Overview](#overview)
+  - [Get Started](#get-started)
   - [Writing Tests with Tap](#writing-tests-with-tap)
     - [Test Example](#test-example)
   - [Logging with Pino 7+](#logging-with-pino-7)
@@ -13,6 +14,10 @@ This starter template includes [tap](https://node-tap.org) for tests and [pino](
 ESLint is configured for Typescript in [Standard.js](https://standardjs.com/) semi style (semicolons) and a few [quality of life modifications](#codestyle).  
 Standard.js is widely used at vercel, heroku, node, elastic, npm, nearform, fastify and more!
 
+# Get Started
+1. Generate new repository from this template: https://github.com/VIEWVIEWVIEW/sensible-typescript-starter-node/generate
+2. Clone repo to your local machine
+3. Run ``npm i`` and install the [ESLint Extension](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) for vscode
 
 # Writing Tests with Tap
 

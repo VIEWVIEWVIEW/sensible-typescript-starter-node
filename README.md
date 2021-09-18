@@ -33,6 +33,7 @@ You can inspect a screenshot of a sample output here:
 
 ### Test Example:
 ```typescript
+// /test/Animal.test.ts
 import tap from 'tap';
 
 import { Cat, Dog } from '../src/Animal';

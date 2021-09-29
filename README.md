@@ -101,7 +101,7 @@ have been written. To perform log rotation without `copytruncate`, see [Reopenin
 
 
 ## Code Style
-This repo uses a modified version of [semistandard](https://github.com/standard/eslint-config-standard-with-typescript) aiming for best practises and a modern ecmascript experience. Three rules in total were modified.
+This repo uses a modified version of [semistandard](https://github.com/standard/eslint-config-standard-with-typescript) aiming for best practices and a modern ecmascript experience. Three rules in total were modified.
 
 ### Linting
   - To **lint** your code, run ``npm run lint``
